@@ -11,6 +11,7 @@ rules:
   no-plusplus:
     - error
     - allowForLoopAfterthoughts: true
+  no-return-assign: off
   no-unexpected-multiline: error
   semi:
     - error
@@ -20,3 +21,4 @@ plugins:
 env:
   es6: true
   node: true
+  mocha: true
