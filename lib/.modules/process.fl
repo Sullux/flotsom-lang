@@ -1,0 +1,13 @@
+write: {
+  =: 'process.stdout.write(message)'
+}
+
+{
+  current: {
+    =: 'process' # todo
+  }
+
+  write: {
+    =: todo
+  }
+}
